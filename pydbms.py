@@ -16,7 +16,7 @@ from table import Tbl
 from interactive import DBMSCLI
 
 class PyDBMS:
-    """Simple, functional database management system"""
+    """Simple, yet functional database management system"""
     
     def __init__(self, db_name: str = 'default'):
         self.db_name = db_name
